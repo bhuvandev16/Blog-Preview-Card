@@ -21,6 +21,12 @@ main {
   margin-right: auto;
   margin-bottom: 2.5rem;
   filter: drop-shadow(6px 6px);
+  transition: 0.3s;
+
+}
+
+main:hover {
+  filter: drop-shadow(15px 15px);
 }
 
 .illustration {
@@ -48,6 +54,11 @@ main {
   font-family: "Figtree", sans-serif;
   font-weight: 800;
   margin: 0;
+}
+
+.heading:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
 }
 
 .paragraph {
